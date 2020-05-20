@@ -1,4 +1,9 @@
 {
     "name": "eg/composer-project",
-    "require": {}
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
 }
